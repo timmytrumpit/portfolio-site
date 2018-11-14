@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182535;
+    color: #fff;
+    margin: 0;
+    font-family: 'bitter', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#border {
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    width: calc(100vw - (100vw - 100%));
+    height: 100vh;
+    box-shadow: inset 0px 0px 0px 15px rgba(255,255,255,0.1);
+    background-image: url(images/stars.png);
+    background-repeat: no-repeat;
+}
+
+#nav {
+    margin: 0 10vw;
+    width: 30vw;
+    position: fixed;
+    text-transform: capitalize;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav h1 {
+  margin-top: 0;
+}
+
+#info{
+    font-size: 22px;
+}
+
+#contact {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact a img {
+  width: 18px;
+  height: auto;
+  vertical-align: sub;
+}
+
+#contact .social img {
+  width: 20px;
+  height: auto;
+  color: #fff;
+  margin: 0 5px;
+}
+
+#local-links {
+  list-style: none;
+  margin: 100px 0;
+  padding: 0;
+}
+
+#local-links li{
+  margin: 10px 0;
+}
+
+#local-links li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#folio {
+  width: 35vw;
+  margin-left: 50vw;
+}
+
+#folio .folio-item {
+  background-color: #fff;
+  color: #111;
+  border-radius: 8px;
+  padding: 15px 30px 30px 30px;
+  font-family: 'Mukta', sans-serif;
+  margin: 200px 0;
+}
+
+#folio .folio-item .tag-list{
+  padding: 0;
+}
+
+#folio .folio-item .tag-list .tag {
+  border: 2px solid black;
+  border-radius: 40px;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 2px 16px;
+  margin: 0;
+}
+
+#folio p {
+  margin-top: 40px;
+}
+
+#folio h2 {
+  font-size: 26px;
+  text-transform: capitalize;
+  font-family: 'Bitter', serif;
+}
+
+#folio .button {
+  background-color: #ED1965;
+  color: #fff;
+  border-radius: 8px;
+  opacity: 1;
+  transition: 0.1s;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 30px;
+  vertical-align: sub;
+  margin-top: 40px;
+}
+
+#folio .button img {
+  width: 16px;
+  margin: 5px 0;
+  float: right;
+}
+
+#folio .button:hover {
+  opacity: 0.8;
+}
