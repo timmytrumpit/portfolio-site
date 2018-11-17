@@ -50,14 +50,18 @@ a {
     font-size: 16px;
 }
 
+#contact a img{
+  vertical-align: sub;
+}
+
 #contact a:hover {
   text-decoration: underline;
 }
 
-#contact a img {
+#contact .email .email-arrow {
   width: 18px;
   height: auto;
-  vertical-align: sub;
+  opacity: 0;
 }
 
 #contact .social img {
@@ -133,16 +137,23 @@ a {
   padding: 5px 30px;
   vertical-align: sub;
   margin-top: 40px;
+  width: 100%;
 }
 
-#folio .button img {
+#folio .button .arrow {
   width: 16px;
-  margin: 5px 0;
-  float: right;
+  margin: 6px 0;
+  position: absolute;
+  opacity: 0;
 }
 
 #folio .button:hover {
   opacity: 0.8;
+}
+
+.active {
+  opacity: 1 !important;
+  margin-left: 20px !important;
 }
 
 @media (max-width:1366px) {
@@ -195,7 +206,7 @@ a {
     margin: 0 10vw;
   }
 
-  #folio h2{
+  #folio h2 {
     font-size: 20px;
   }
 
