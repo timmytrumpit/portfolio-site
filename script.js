@@ -4,4 +4,4 @@ $('.button').hover(function () {
 
 $('.email').hover(function () {
   $('.email-arrow').toggleClass('active')
-})
+});
