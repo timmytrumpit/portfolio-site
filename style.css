@@ -98,7 +98,7 @@ a {
 #folio .folio-item {
   background-color: #fff;
   color: #111;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 15px 30px 30px 30px;
   font-family: 'Mukta', sans-serif;
   margin: 20px 0;
@@ -109,7 +109,7 @@ a {
 }
 
 #folio .folio-item .tag-list .tag {
-  border: 2px solid black;
+  border: 1.5px solid black;
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
@@ -129,9 +129,9 @@ a {
 }
 
 #folio .button {
-  background-color: #ED1965;
-  color: #fff;
-  border-radius: 8px;
+  background-color: #fff;
+  color: #ED1965;
+  border-radius: 4px;
   opacity: 1;
   transition: 0.1s;
   text-transform: capitalize;
@@ -142,6 +142,14 @@ a {
   vertical-align: sub;
   margin-top: 40px;
   width: 100%;
+  border: 3px solid #ED1965;
+  border-bottom: 6px solid #ED1965;
+}
+
+#folio .button:active {
+  margin-top: 46px;
+  border-bottom: 0;
+  border: 3px solid #ED1965;
 }
 
 #folio .button .arrow {
