@@ -1,4 +1,4 @@
-$('.button').hover(function () {
+$('#weather-maps').hover(function () {
   $('.arrow').toggleClass('active')
 });
 
