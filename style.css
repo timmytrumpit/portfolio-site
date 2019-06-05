@@ -258,6 +258,20 @@ h2 {
   background-size: 100%;
 }
 
+#folio #parisian{
+  background-image: url(images/parisian.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+#folio #nga{
+  background-image: url(images/nga.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
 #inspiration{
   display: inline-block;
   vertical-align: top;
