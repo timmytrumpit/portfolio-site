@@ -123,8 +123,8 @@ a {
   transform: rotate(-45deg);
   width: 22px;
   position: absolute;
-  left: 14.6vw;
-  top: -0.5vw;
+  right: -11px;
+  top: -7px;
   opacity: 0;
 }
 
