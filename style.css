@@ -291,7 +291,7 @@ h2 {
 
 @media (max-width:660px) {
   #background{
-    padding: 6vw 6vh;
+    padding: 2vh 6vw;
   }
 
   #nav h1 {
