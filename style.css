@@ -14,30 +14,16 @@ a {
   text-decoration: none;
 }
 
-/* #border {
-    position: fixed;
-    z-index: -100;
-    top: 0;
-    width: calc(100vw - (100vw - 100%));
-    height: 100vh;
-    box-shadow: inset 0px 0px 0px 15px rgba(255,255,255,0.1);
-    background-image: url(images/starsphoto.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-} */
-
 #background {
   padding: 10vh 10vw;
 }
 
 #nav {
-    /* margin: 0 1.25vw; */
     padding: 10vh 13vw;
     width: 100%;
     height: 60vh;
     text-transform: capitalize;
     background-image: url(images/starsphoto.png);
-    /* display: inline-block; */
     color: #fff;
     border-radius: 4px;
     position: relative;
@@ -71,7 +57,7 @@ a {
     padding: 0;
     font-size: 14px;
     position: absolute;
-    bottom: 10vh;
+    bottom: 8vh;
 }
 
 #contact a img{
@@ -126,6 +112,7 @@ a {
   margin: 1.25vw;
   display: inline-block;
   width: 15.5vw;
+  min-width: 160px;
   height: 15vh;
   vertical-align: top;
   position: relative;
@@ -283,18 +270,9 @@ h2 {
   /* margin-left: 20px !important; */
 }
 
-@media (max-width:1366px) {
-  /* #folio {
-    width: 50vw;
-    margin-left: 38vw;
-  } */
-}
-
 @media (max-width:1024px) {
   #nav {
-    position: static;
-    margin: 15vh 20vw;
-    width: 60vw;
+    height: 76vh;
   }
 
   #local-links {
@@ -302,22 +280,39 @@ h2 {
   }
 
   #folio {
-    width: 60vw;
-    margin: 0 20vw;
+    /* width: 60vw; */
+    /* margin: 0 20vw; */
+  }
+
+  #folio .folio-item{
+    width: 45%;  
   }
 }
 
-@media (max-width:616px) {
-  h1 {
-    font-size: 28px;
+@media (max-width:660px) {
+  #background{
+    padding: 6vw 6vh;
+  }
+
+  #nav h1 {
+    font-size: 20px;
   }
 
   #nav {
-    margin: 10vh 10vw;
+    /* margin: 10vh 10vw; */
+    height: auto;
+    padding: 6vh 6vw;
+    padding-bottom: 12vh;
+  }
+
+  #nav p{
+    font-size: 12px;
+    line-height: 18px;
   }
 
   #contact {
     font-size: 12px;
+    bottom: 4vh;
   }
 
   #contact .social img {
@@ -329,8 +324,13 @@ h2 {
   }
 
   #folio {
-    width: 80vw;
-    margin: 0 10vw;
+    width: auto;
+    margin: 6vh 6vw;
+  }
+
+  #folio p{
+    font-size: 12px;
+    line-height: 20px;
   }
 
   #folio h2 {
@@ -338,8 +338,9 @@ h2 {
   }
 
   #folio .folio-item {
-    margin: 80px 0;
-    padding: 5px 20px 20px 20px;
+    width: 100%;
+    /* margin: 80px 0; */
+    /* padding: 5px 20px 20px 20px; */
   }
 
   #folio .folio-item .tag-list .tag {
