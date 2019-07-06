@@ -272,6 +272,20 @@ h2 {
   background-size: 100%;
 }
 
+#folio #ex-machina{
+  background-image: url(images/ex-machina.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+#folio #act-vehicles{
+  background-image: url(images/act-vehicles.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
 #inspiration{
   display: inline-block;
   vertical-align: top;
